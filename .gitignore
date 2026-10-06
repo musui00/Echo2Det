@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local data and generated experiment artifacts.
+datasets/
+training/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.zip
+*.cdf
+*.CDF
+*.h5
+*.mat
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# Public architecture figure.
+!assets/
+!assets/overall_network.png
+
+# Components intentionally excluded from the initial public release.
+data_loader/
+train_echo2det_hh.ipynb
+datasets/
+training/
+environment.yml
+requirements.txt
+*.csv
